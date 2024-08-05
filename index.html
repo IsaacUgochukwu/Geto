@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <!--<link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mobile.css">-->
+    <title>Geto - Artist, album and track exploration Here</title>
+    <style type="text/css">
+body {
+    width: 100%;
+    font-size: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    background-color: #222222;
+}
+nav {
+    font-size: 25px;
+    font-weight: bolder;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+    height: 60px;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(150px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer {
+    font-size: 20px;
+    font-weight: bolder;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    color: white;
+    height: 30px;
+    font-family: "Roboto", sans-serif;
+    background-color: rgb(0, 0, 0, 0.5);
+    -webkit-backdrop-filter: blur(150px);
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbar {
+    margin-top: 30%;
+}
+.searchbutton {
+    margin-right: 15%;
+    background-color: yellow;
+    margin: 5px;
+    width: 15%;
+    height: 50px;
+}
+.searchbutton:hover {
+    background-color: lightyellow;
+}
+.searchbutton:focus {
+    background-color: yellow;
+}
+.searchspace {
+    margin: 5px;
+    margin-left: 15%;
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    width: 55%;
+    height: 30px;
+}
+.searchresults {
+    margin-top: 60px;
+    border: thin outset #222222;
+    background-color: cornsilk;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+    width: 60%;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+a {
+    display: none;
+}
+    </style>
+</head>
+<body>
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script type="text/babel">
+        function Header() {
+                return <nav><p className="name">Geto <span className="emoji">&#9889;</span></p></nav>
+        }
+        function Footer() {
+            var love = "\u2665";
+            return <footer><p>2024 - Created with {love} By Isaac Ugochukwu</p></footer>
+        }
+        class WorkComponent extends React.Component {
+                constructor() {
+                    super()
+                    this.state = {
+                        apiKey: "40435b0af7d9d884b64fd112db6c2118",
+                        search: "", 
+                        imgUrl: "",
+                        artistBio: ""
+                    }
+                    this.handleChange = this.handleChange.bind(this);
+                    this.handleClick = this.handleClick.bind(this);
+                }
+                handleChange(event) {
+                    this.setState({ search: event.target.value })
+                }
+                handleClick() {
+                    var url = "https://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=" + this.state.search + "&api_key=" + this.state.apiKey + "&format=json";
+                    fetch(url)
+                    .then(response => response.json())
+                    .then(data => {
+                        this.setState({ artistBio: data.artist.bio.summary })
+                    })
+                }
+                render() {
+                    return (
+                        <div className="searchbar">
+                            <span><input 
+                                    className="searchspace"
+                                    type="text" 
+                                    name="search" 
+                                    value={this.state.search} 
+                                    placeholder="Type an artist or track name" 
+                                    onChange={this.handleChange} 
+                            /></span>
+                            <span><button className="searchbutton" onClick={this.handleClick}><img src="search.svg" alt="Search" /></button></span>
+                            <div className="searchresults">
+                                <br />
+                                <h3>{this.state.search}</h3>
+                                <p>{this.state.artistBio}</p>
+                            </div>
+                        </div>
+                    )
+                }
+        }
+
+        function App() {
+            return (
+                <div>
+                    <Header />
+                    <WorkComponent />
+                    <Footer />
+                </div>
+            )
+        }
+        ReactDOM.render(<App />, document.getElementById("root"))
+    </script>
+
+    <div id="root"></div>
+</body>
+</html>
