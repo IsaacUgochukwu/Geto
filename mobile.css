@@ -1,0 +1,24 @@
+.topcontent {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: transparent;
+    backdrop-filter: blur(60px);
+    height: 50px;
+}
+.searchbar {
+    margin-top: 30%;
+}
+.search {
+    width: 10%;
+    height: 40px;
+}
+.searchspace {
+    font-family: "Poppins", sans-serif;
+    font-weight: bold;
+    width: 50%;
+    height: 30px;
+}
+.searchresults {
+    text-align: center;
+}
