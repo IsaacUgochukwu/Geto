@@ -14,14 +14,6 @@ body {
     font-family: "Ubuntu", sans-serif;
 }
 
-.hsla {
-    border: thin solid hsla(0, 0%, 0%, 0);
-    outline: none;
-    background-color: hsla(0, 0%, 0%, 0.500);
-    width: 100%;
-    min-height: 100vh;
-}
-
 h1 {
     position: fixed;
     top: 0;
@@ -74,7 +66,7 @@ button:active {
 
 button:hover, button:focus {
     background-color: skyblue;
-    color: white;
+    color: black;
 }
 
 footer {
