@@ -5,8 +5,8 @@
 }
 
 body {
-    background-image: url("istockphoto-1422040059-1024x1024.jpg");
-    background-size: cover;
+    background-image: url("bgimg.png");
+    background-size: fill;
     background-color: whitesmoke;
     min-height: 100%;
     width: 100%;
@@ -55,7 +55,7 @@ button {
     font: inherit;
     background: blue;
     border-radius: 1.5rem;
-    width: 400px;
+    width: 80%;
     height: 50px;
     border: none;
 }
@@ -70,6 +70,7 @@ button:hover, button:focus {
 }
 
 footer {
+    font-family: "Kanit", sans-serif;
     background: skyblue;
     position: fixed;
     bottom: 0;
@@ -77,4 +78,14 @@ footer {
     text-align: center;
     padding: 0.5rem;
     font-size: 1rem;
+}
+
+.thunder {
+    color: gold;
+    -webkit-text-stroke: thin black;
+}
+
+.heart {
+    color: red;
+    -webkit-text-stroke: thin black;
 }

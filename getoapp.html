@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <meta name="author" content="Isaac Ugochukwu">
+    <meta property="og:image" content="getoicon.png">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Kanit&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu&display=swap">
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <title>Geto</title>
+</head>
+
+<body>
+    <h1 class="header">Geto <span class="thunder">&#9889;</span></h1>
+
+    <section class="bar">
+        <script src="search.js"></script>
+        <input type="text" placeholder="Type an artist name" id="search">
+        <button onclick="search()">Search</button>
+    </section>
+
+    <div id="back" class="back" onclick="handleClick()">&larr;</div>
+    <script>
+        function handleClick() {
+            location.reload();
+        }
+    </script>
+    <div id="spinner" class="spinner">&#8635;</div>
+
+    <section id="main" class="main">
+
+    <p class="description">Artist you'd like to explore</p>
+
+    <section class="cards">
+        <script src="index.js"></script>
+        <div class="card" onclick="getParagraph(this)">
+            <img src="" alt="Artist image" width="351" height="384">
+                <p class="name">Davido</p>
+        </div>
+        <div class="card" onclick="getParagraph(this)">
+            <img src="" alt="Artist image">
+                <p>Burna Boy</p>
+        </div>
+        <div class="card" onclick="getParagraph(this)">
+            <img src="" alt="Artist image">
+                <p>Juice Wrld</p>
+        </div>
+        <div class="card" onclick="getParagraph(this)">
+            <img src="" alt="Artist image">
+                <p>Tiwa Savage</p>
+        </div>
+        <div class="card" onclick="getParagraph(this)">
+            <img src="" alt="Artist image">
+                <p>Wizkid</p>
+        </div>
+        <div class="card" onclick="getParagraph(this)">
+            <img src="" alt="Artist image">
+                <p>Mayorkun</p>
+        </div>
+        <div class="card" onclick="getParagraph(this)">
+            <img src="" alt="Artist image">
+                <p>Rema</p>
+        </div>
+        <div class="card" onclick="getParagraph(this)">
+            <img src="" alt="Artist image">
+                <p>Phyno</p>
+        </div>
+        <div class="card" onclick="getParagraph(this)">
+            <img src="" alt="Artist image">
+                <p>Moses Bliss</p>
+        </div>
+        <div class="card" onclick="getParagraph(this)">
+            <img src="" alt="Artist image">
+                <p>Drake</p>
+        </div>
+    </section>
+
+    <section>
+        <p class="bottom">You're caught up!</p>
+    </section>
+
+    </section>
+
+    <section id="searchresult" class="searchresult">
+        <h1 id="title" class="title"></h1>
+        <p id="bio"></p>
+    </section>
+</body>
+
+</html>

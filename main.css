@@ -1,0 +1,183 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #333333;
+    color: white;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.5rem;
+}
+
+.header {
+    color: black;
+    font-family: "Kanit", sans-serif;
+    text-align: center;
+    background-color: skyblue;
+    margin-bottom: 2rem;
+}
+
+.bar {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
+input {
+    width: 60%;
+    height: 40px;
+    font-size: 1.2rem;
+    font-family: "Ubuntu", sans-serif;
+    color: black;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border: none;
+}
+
+.description {
+    margin: 2rem auto;
+    text-align: center;
+}
+
+button {
+    cursor: pointer;
+    width: 20%;
+    height: 40px;
+    border: none;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    font: inherit;
+}
+
+button:hover, button:active, button:focus {
+    opacity: 0.70;
+    transition: all 1s ease-in;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: black;
+}
+
+.card {
+    border: thin solid #333333;
+    border-radius: 2rem;
+    background-color: skyblue;
+    width: 200px;
+    height: 200px;
+}
+
+.card p {
+    text-align: center;
+}
+
+.card {
+    cursor: pointer;
+    margin: 1rem 1rem;
+}
+
+.card:hover, .card:focus, .card:active {
+    background-color: skyblue;
+    opacity: 0.70;
+    color: white;
+}
+
+.bottom {
+    margin: 2rem;
+    text-align: center;
+    font-family: cursive;
+}
+
+img {
+    display: block;
+    margin: 1rem auto;
+    width: 60px;
+    height: auto;
+    border-radius: 30px;
+}
+
+.name {
+    display: block;
+    margin: 1rem auto;
+}
+
+.thunder {
+    color: gold;
+    -webkit-text-stroke: thin black;
+}
+
+.title {
+    font-family: "Kanit", sans-serif;
+    margin: 2rem auto;
+    margin-top: 0;
+    border: thin solid black;
+    background-color: skyblue;
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
+}
+
+.searchresult {
+    display: none;
+    background-color: papayawhip;
+    color: black;
+    border: thin solid #333333;
+    border-radius: 2rem;
+    padding: 1rem;
+    width: 80%;
+    margin: 2.5rem auto;
+    text-align: center;
+}
+
+.searchresult a {
+    display: none;
+}
+
+.spinner {
+    display: none;
+    color: white;
+    width: fit-content;
+    padding: 1rem;
+    margin-top: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 6rem;
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    0% {
+        transfom: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.back {
+    display: none;
+    cursor: pointer;
+    position: fixed;
+    top: 200px;
+    left: 50px;
+    z-index: 1;
+    border: thin solid black;
+    background-color: papayawhip;
+    padding: 0.55rem;
+    border-radius: 2rem;
+    color: black;
+    font-weight: bolder;
+}
+
+.back:hover, .back:active, .back:focus {
+    opacity: 0.75;
+    transition: all 1s ease;
+}
