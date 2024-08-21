@@ -18,21 +18,6 @@ function search() {
         // URL components
         const apiKey = "40435b0af7d9d884b64fd112db6c2118";
         const endpoint = "http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=" + search + "&api_key=" + apiKey + "&format=json";
-        const id = "JCYrqVQcuVTtGHx51ZZrHxNy2-HFWQ1X";
-        const url = "https://musicbrainz.org/ws/2/artist/?fmt=json";
-
-        // URL fetching
-        fetch(url, {
-            method: "GET",
-            headers: {
-                "Authorization": Bearer + id,
-                "User-Agent": "Geto"
-            }
-        })
-        .then(response => response.json())
-        .then(data => console.log(data))
-        .catch(error => console.error(error))
-
 
         // URL fetching
         fetch(endpoint)
@@ -41,9 +26,21 @@ function search() {
             spinner.style.display = "none";
             searchresult.style.display = "block";
             const bio = data.artist.bio.summary;
+            const id = data.artist.mbid;
             title.innerHTML = search;
             artistbio.innerHTML = bio;
+
+            // URL components
+            const imgendpoint = "https://lastfm-img2.akamaized.net/i/u/300x300/" + id + ".png?" + "api_key=" + apiKey;
+            
+            return fetch(imgendpoint)
+            .then(response => response.blob())
+            .then(blob => {
+                img.src = URL.createObjectURL(blob);
             })
+            .catch(error => console.error(error));
+            })
+            
         .catch(error => console.error(error));
-        }
+    }
 }

@@ -140,22 +140,23 @@ img {
 
 .spinner {
     display: none;
-    color: white;
-    width: fit-content;
-    padding: 1rem;
+    border: 8px solid #333333;
+    border-top: 8px solid skyblue;
+    border-radius: 50%;
+    width: 85px;
+    height: 95px;
     margin-top: 200px;
     margin-left: auto;
     margin-right: auto;
-    font-size: 6rem;
     animation-name: spin;
-    animation-duration: 2s;
+    animation-duration: 1s;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
 @keyframes spin {
     0% {
-        transfom: rotate(0deg);
+        transform: rotate(0deg);
     }
     100% {
         transform: rotate(360deg);
@@ -180,4 +181,11 @@ img {
 .back:hover, .back:active, .back:focus {
     opacity: 0.75;
     transition: all 1s ease;
+}
+
+.artistimg {
+    display: block;
+    width: 60%;
+    height: auto;
+    border-radius: 2rem;
 }

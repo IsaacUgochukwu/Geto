@@ -1,0 +1,229 @@
+{
+    "artist": {
+        "name": "Davido",
+        "mbid": "a9ae7d4b-10f0-4da8-8b8c-21722a074a54",
+        "url": "https://www.last.fm/music/Davido",
+        "image": [
+            {
+                "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                "size": "small"
+            },
+            {
+                "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                "size": "medium"
+            },
+            {
+                "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                "size": "large"
+            },
+            {
+                "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                "size": "extralarge"
+            },
+            {
+                "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                "size": "mega"
+            },
+            {
+                "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                "size": ""
+            }
+        ],
+        "streamable": "0",
+        "ontour": "0",
+        "stats": {
+            "listeners": "190290",
+            "playcount": "3300009"
+        },
+        "similar": {
+            "artist": [
+                {
+                    "name": "Asake",
+                    "url": "https://www.last.fm/music/Asake",
+                    "image": [
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "small"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "medium"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "large"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "extralarge"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "mega"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Mayorkun",
+                    "url": "https://www.last.fm/music/Mayorkun",
+                    "image": [
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "small"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "medium"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "large"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "extralarge"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "mega"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Fireboy DML",
+                    "url": "https://www.last.fm/music/Fireboy+DML",
+                    "image": [
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "small"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "medium"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "large"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "extralarge"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "mega"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Young Jonn",
+                    "url": "https://www.last.fm/music/Young+Jonn",
+                    "image": [
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "small"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "medium"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "large"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "extralarge"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "mega"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": ""
+                        }
+                    ]
+                },
+                {
+                    "name": "Kizz Daniel",
+                    "url": "https://www.last.fm/music/Kizz+Daniel",
+                    "image": [
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/34s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "small"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/64s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "medium"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/174s/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "large"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "extralarge"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": "mega"
+                        },
+                        {
+                            "#text": "https://lastfm.freetls.fastly.net/i/u/300x300/2a96cbd8b46e442fc41c2b86b821562f.png",
+                            "size": ""
+                        }
+                    ]
+                }
+            ]
+        },
+        "tags": {
+            "tag": [
+                {
+                    "name": "afrobeat",
+                    "url": "https://www.last.fm/tag/afrobeat"
+                },
+                {
+                    "name": "nigeria",
+                    "url": "https://www.last.fm/tag/nigeria"
+                },
+                {
+                    "name": "afrobeats",
+                    "url": "https://www.last.fm/tag/afrobeats"
+                },
+                {
+                    "name": "africa",
+                    "url": "https://www.last.fm/tag/africa"
+                },
+                {
+                    "name": "naija",
+                    "url": "https://www.last.fm/tag/naija"
+                }
+            ]
+        },
+        "bio": {
+            "links": {
+                "link": {
+                    "#text": "",
+                    "rel": "original",
+                    "href": "https://last.fm/music/Davido/+wiki"
+                }
+            },
+            "published": "18 Feb 2013, 02:18",
+            "summary": "Davido (born David Adeleke) is a performing and recording artiste and also a music producer. Davido was born in Atlanta GA, USA on November 21st to Mr And Mrs Adeleke and attended The British International School, Lagos. Travelling between the USA, the UK and Nigeria, Davido has experienced different cultures but still stays true to his roots and this is evident in his music and the people he considers his biggest influences musically, which include Don Jazzy, 2 Face idibia, Sound Sultan and Wande Coal. <a href=\"https://www.last.fm/music/Davido\">Read more on Last.fm</a>",
+            "content": "Davido (born David Adeleke) is a performing and recording artiste and also a music producer. Davido was born in Atlanta GA, USA on November 21st to Mr And Mrs Adeleke and attended The British International School, Lagos. Travelling between the USA, the UK and Nigeria, Davido has experienced different cultures but still stays true to his roots and this is evident in his music and the people he considers his biggest influences musically, which include Don Jazzy, 2 Face idibia, Sound Sultan and Wande Coal. Though Davido started music professionally a year ago, he has been performing and making music since the age of 11. Now 18, he has set up a record label called HKN Music, jointly ownedby Davido and Ade, his older brother. The saying “If you want something done, do it yourself” is what led the brothers start the label as Davido believes that as a producer and recording artiste, he would be in the best position to create music that suits his style. When asked to choose an ideal producer to work with, he responded “...myself, because I knowwhat I want exactly!” He is however quick to mention that he would definitely be excited to work with Sarz, Jaysleek and/or Don Jazzy.\nIn a short space of time, Davido has developed a huge fan base (14 to 28-year-olds) in Nigeria, the US and the UK and the young fresh talent’s first  single “Back When” featuring Naeto C, is enjoying massive media attention and airplay online, on radio and TV. In his own words, his greatest reward so far is “having my family and friends support my dream. I can’t ask God for more”. Within no time Davido took us by storm when he released Dami Duro , which has been said to be one of Nigerians top hits ever made. Without a doubt, Dami Duro has become a leading club song as well as one of radios most played.\nWithout wasting much time, Davido and his management team, in collaboration with Clarence Peters, put together a first-class, never seen before type video, to back up the banger, Dami Duro. Not only did this video create major buzz around websites, TV stations and youtube, but was also said to be one of the best videos out of Nigeria. Without saying much, it is evident that Davido is one to watch out for in 2012! He is evidently here to stay, and deliver.\nDavido had a very eventful Christmas (2011) season performing all over Nigeria. He had amazing performances at shows like the Kokoconcert, Rhythm Unplugged, Echo 2011, Access Bank End of year Party and the Sahara End of year concert\nThe Artiste\nDavido admits that his love for entertaining people comes from his late mother who passed away in 2003. Losing his mother has been the most traumatic experience Davido has had to suffer but it has also been his inspiration as he states “...she’s the reason I do what I do.... she loved to entertain and I plan on carrying that legacy...”\nWith collaborations with artistes likeNaeto C, Shank, Lynxxx and popular UK artiste, Dotstar, Davido is set to prove to the music industry that he has what it takes to succeed. He has also shared stages with people like T-Pain, Fabulous, Keith Sweat, Cabo Snoop, D'Banj, Naeto C and more.\nThe Producer\nAs a versatile artiste, Davido is able to adapt to any beat produced by other producers. However, this is a craft he has succeeded in mastering and with help from his brother Ade, HKN Studios would be a force to reckon with in the Nigerian Music scene.\nOften asked where his inspiration as a producer comes from, David explains “... I like it when people are happy and when they can dance to my music! My mom liked to dance to music and I am inspired when I think of the kind of beats that would make her dance”\nHis debut single “Back When” featuring Naeto C is a testament to Davido’s ability and skill as a producer. He has also produced music for ... Naeto C, Skales, Tiwa Savage and Sauce Kid. So, the next time you are dancing to a well made beat, pay attention because you might just hear “on the beat its Davido”... A signature that will be heard on chart-topping songs for a very long time!\nThe Student\nOften considered playful and fun loving, Davido has shown that he is a focused individual and not allowing his music career get in the way of his education. Davido is currently studying Business Administrations in Babcock University and he is applying things he learns in school into running the business of his music career. Ensuring that a proper system and business tools are in place for his music career, Davido hasnot only built a recording studio for the HKN Records, he has also assembled a management and PR team to help him run his affairs while he focuses on his education. Music doesn’t take a back seat though... Davido runs on a very tight schedule to ensure that neither his music nor education suffers!\nThe Brand\nGood talent is hard to go unnoticed. However, more profitable than good talent is a good brand. The Davido brand is increasing growing and commanding attention. The good quality of the debut single “Back When” featuring Naeto C, produced by Davido, is complimented by the quality of the video shot by Award Winning Video Director, Clarence Peters.\nThe “Back When” video has over 100,000 views on youtube and has had massive airplay on MTV, SoundCity, 1 Music Channel and all Terrestrial TV stations.\nDavido is probably one of the busiestof the new artistes in Nigeria as he has performed in some of the biggest shows this year. These shows include\nThe Music Meets Runway Show\nPSquare Invasion Concert\n“This is Lynxxx” Campus Tour\nVivendi Fashion Show\nClan by Deola Sagoe\nLoud on Sound Concert\nKoko Concert London\nElite Model Look 2011 and many others\nRhythm Unplugged,\nEcho 2011,\nAccess Bank End of year Party\nThe Sahara End of year concert.\nWith offers already coming his way for more appearances and performances, Davido’s fan base is set to go “off the roof”. Without a doubt, Davido will be vital to selling a few brands in the country.\nAs an artiste and a producer, Davido is focused on ensuring consistency in the quality of music he gives his fans that are increasing by the minute. Davido’s brand management team is looking forward to developing concepts and working with brands to establish mutually beneficial relationships.\nDavido is managed by 21 year-old Asa Asika, who has worked with artists such as Sasha, Naeto C, YQ, GT The Guitarman, Ikechukwu, Pype and many more.\nWhat’s Next?\nDavido has been recording with artistes like Dotstar, Lynxxx, Sauce Kid, DJ Skales, Tiwa Savage, Mo’Cheddah, DJ Neptune, FlxeFit, Wizkid, Shank, and much more in preparation for his debut album, which is currently untitled. With the debut single entering countdown charts across the country, Davido is almost always set to release a follow up single to ensure that his fans always have something new to enjoy.\nHello Fanz-Mi  show a big love to Ma childhood bro, a recording Artist from Nigeria called FlxeFit\nwww.Twitter.com/@FlxeFit\nwww.Instagram.com/FlxeFit\n Followers and Fan-Mi Follow him, love you FlxeFit <a href=\"https://www.last.fm/music/Davido\">Read more on Last.fm</a>. User-contributed text is available under the Creative Commons By-SA License; additional terms may apply."
+        }
+    }
+}
