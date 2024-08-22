@@ -18,7 +18,7 @@ function getParagraph(card) {
     back.style.display = "block";
 
     // URL components
-    const apiKey = process.env.API_KEY;
+    const apiKey = import.meta.env.API_KEY;
     const endpoint = "http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=" + pText + "&api_key=" + apiKey + "&format=json";
 
     // URL fetching
