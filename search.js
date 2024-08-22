@@ -16,7 +16,7 @@ function search() {
         back.style.display = "block";
 
         // URL components
-        const apiKey = "40435b0af7d9d884b64fd112db6c2118";
+        const apiKey = process.env.API_KEY;
         const endpoint = "http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=" + search + "&api_key=" + apiKey + "&format=json";
 
         // URL fetching
