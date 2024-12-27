@@ -13,24 +13,18 @@
 
 <body>
     <header>
-      <a href="index.html"><img src="assets/applemusic.jpg" alt="Logo" class="logo"></a>
+      <a href="try-geto.vercel.app"><img src="assets/applemusic.jpg" alt="Logo" class="logo"></a>
       </header>
       <br><br><br>
-      <h1>Search an artist right away 🤳</h1><br><br>
+      <div class="hero">
+      <h1>Search an artist right away 🤳</h1><br><br></div>
 
     <section class="search-bar">
         <input type="text" placeholder="Artist name here" class="search-input">
         <button type="button" onclick="search()" class="search-btn">Search</button>
     </section>
-
-    <div id="back" class="back" onclick="handleClick()">&larr;</div>
-    <script>
-        function handleClick() {
-            location.reload();
-        }
-    </script>
-    <div class="spinner"></div>
-
+    
+    
     <section class="suggestions">
     <br><br><br><h2>Suggestions</h2><br><br>
 
@@ -81,11 +75,13 @@
         <p class="bottom">You're caught up bruhh!</p>
     </section>
     </section>
-
+     
+    <div class="back">&larr;</div>
+    <p class="loader">Loading...</p>
     <section class="search-result">
-        <h1 class="title"></h1>
+        <h2 class="title"></h2>
         <img src="" alt="Artist image" class="artist-img">
-        <hr>
+        <br><br><br>
         <p class="bio"></p>
     </section>
     

@@ -4,27 +4,26 @@ document.querySelector('.search-btn').addEventListener('click', () => {
 
     if (searchInput) {
         // Importing elements
-        const spinner = document.querySelector(".spinner");
+        const loader = document.querySelector(".loader");
         const suggestions = document.querySelector(".suggestions");
         const searchResult = document.querySelector(".search-result");
         const titleContainer = document.querySelector(".title");
         const artistBioContainer = document.querySelector(".bio");
         const backBtn = document.querySelector(".back");
+        const hero = document.querySelector('.hero');
 
         // Elements styling
         suggestions.style.display = "none";
-        spinner.style.display = "block";
+        loader.classList.add('flex');
         backBtn.style.display = "block";
-
-        // URL components
-        const apiKey = process.env.API_KEY;
-        const endpoint = "http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=" + searchInput + "&api_key=" + apiKey + "&format=json";
+        hero.style.display = 'none';
 
         // URL fetching
-        fetch(endpoint)
+        fetch("/api/artists?name=" + searchInput)
         .then(response => response.json())
         .then(data => { 
-            spinner.style.display = "none";
+            loader.classList.remove('flex');
+            loader.style.display = "none";
             searchResult.style.display = "block";
             const bio = data.artist.bio.summary;
             const id = data.artist.mbid;
@@ -38,7 +37,7 @@ document.querySelector('.search-btn').addEventListener('click', () => {
 // Suggestions Functionality
 const  getParagraph = (card) => {
   // Importing Elements
-  const spinner = document.querySelector(".spinner");
+  const loader = document.querySelector(".loader");
   const suggestions = document.querySelector(".suggestions");
   const searchResult = document.querySelector(".search-result");
   const titleContainer = document.querySelector(".title");
@@ -46,24 +45,23 @@ const  getParagraph = (card) => {
   const backBtn = document.querySelector(".back");
   const p = card.querySelector("p");
   const imgContainer = document.querySelector("artist-img");
+  const hero = document.querySelector('.hero');
 
   // Element modifications
   const pText = p.innerHTML;
 
   // Elements styling
   suggestions.style.display = "none";
-  spinner.style.display = "block";
+  loader.classList.add('flex');
   backBtn.style.display = "block";
-
-  // URL components
-  const apiKey = process.env.API_KEY;
-  const endpoint = "http://ws.audioscrobbler.com/2.0/?method=artist.getinfo&artist=" + pText + "&api_key=" + apiKey + "&format=json";
+  hero.style.display = 'none';
 
   // URL fetching
-  fetch(endpoint)
+  fetch("/api/artists?name=" + pText)
     .then(response => response.json())
     .then(data => {
-      spinner.style.display = "none";
+      loader.classList.remove('flex');
+      loader.style.display = "none";
       searchResult.style.display = "block";
       const bio = data.artist.bio.summary;
       const id = data.artist.mbid;
@@ -72,3 +70,14 @@ const  getParagraph = (card) => {
     })
     .catch(error => console.error(error))
 }
+
+// Back functionality
+document.querySelector('.back').addEventListener('click', () => {
+  // Importing elements
+  const suggestions = document.querySelector(".suggestions").classList.add('cards');
+  const suggestions2 = document.querySelector('.suggestions').style.display = "block";
+  const searchResult = document.querySelector(".search-result").style.display = "none";
+  const backBtn = document.querySelector(".back").style.display = 'none';
+  const hero = document.querySelector('.hero').style.display = "block";
+  const loader = document.querySelector('.loader').classList.remove('flex');
+});
